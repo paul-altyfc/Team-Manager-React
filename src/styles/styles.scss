@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;	
+	margin: 0;
+}
+
+.app--wrapper{
+	background: rgb(33,33,33);
+	justify-content: center;
+	color: white;
+	font-family: arial;
+}
+
+.st-wrapper{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+.st-el{
+	min-width: 250px;
+	text-align: center;
+}
+
+.wrapper-developers{
+	display: flex;
+	flex-direction: row;
+
+	li {
+		list-style-type: none;
+	}
+
+}
+
+
+.card{
+	padding: 10px;
+	box-shadow: 0px 2px 10px rgba(33,33,33,0.4);
+	border-radius: 3px;
+	margin: 10px;
+}
+.Leader{
+	border: 1px solid rgb(55,55,122);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.Developer{
+	border: 1px solid rgb(255,255,255);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.Frontend{
+	border: 1px solid rgb(122,55,55);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.Backend{
+	border: 1px solid rgb(12,55,55);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.devName{
+	font-size: 1.3rem;
+}
+.devPic{
+	border-radius: 50%;
+}
+.buttons{
+	display: flex;
+
+}
+.btn{
+	border: none;
+	background: whitesmoke;
+	padding: 10px;
+	display: block;
+	font-size: 1.2rem;
+	color: grey;
+	margin: 2px;
+	border-radius: 3px;
+}
+.btn-sm{
+	font-size: .7rem;
+}
+.btn:hover{
+	background: white;
+	cursor: pointer;
+}
+.btn:active{
+	outline: none;
+}
